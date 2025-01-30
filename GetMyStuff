@@ -1,0 +1,12 @@
+#!/bin/csh
+
+# Collect information
+echo "User ID: `id -u`" > MyStuff
+echo "Primary Group ID: `id -g`" >> MyStuff
+echo "Group Names: `id -Gn`" >> MyStuff
+echo "Shell Path: $SHELL" >> MyStuff
+echo "Home Directory: $HOME" >> MyStuff
+echo "PATH Variable: $PATH" >> MyStuff
+
+echo "Information saved to MyStuff."
+
